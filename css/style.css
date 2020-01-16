@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700,700i|Open+Sans:300&display=swap');
+
+html, body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  -ms-scroll-chaining: none;
+      overscroll-behavior: none;
+  padding-bottom: 75px;
+}
+
+.parallax {
+  background-image: -webkit-gradient( linear, left top, left bottom, from(rgba(0, 0, 0, 0.35)), to(rgba(0, 0, 0, 0.35)) ), url(../media/pobreza-hermes-rivera.jpg);
+  background-image: linear-gradient( rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35) ), url(../media/pobreza-hermes-rivera.jpg); 
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-position: 50% 0;    
+  -webkit-transition: 0s linear;    
+  transition: 0s linear;
+  -webkit-transition-property: background-position;
+  transition-property: background-position;
+  height: 100%;
+}
+
+h1.title {
+  font-family: "Montserrat", sans-serif;
+  position: absolute;
+  font-size: 80px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  right: 0;
+  color: #ffffff;
+
+}
+
+h1.tophead {
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  color: #ffffff;
+  background-color: #141325;
+  padding: 30px 40px;
+  margin: 0;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  color: #141325;
+}
+
+div.description {
+  -webkit-box-flex: 0.8;
+      -ms-flex: 0.8;
+          flex: 0.8;
+}
+
+div.flexbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px
+}
+
+p.description {
+  font-family: "Open Sans", sans-serif;
+  max-width: 50%;
+  font-size: 24px;
+}
+
+.left {
+  margin-left: 75px;
+  padding-top: 50px;
+}
+
+.right {
+  margin-right: 75px;
+  padding-top: 50px;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+img.im {
+  margin-right: 80px;
+  margin-top: 25px;
+  -webkit-box-flex: 0.2;
+      -ms-flex: 0.2;
+          flex: 0.2;
+}
+
+footer.foot {
+  height: 20px;
+  margin-top: 20px;
+}
+
+p.foot {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  padding: 45px;
+  background-color: #d8d8d8c2;
+  margin: 0;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+a.login, a.login:visited {
+  float: right;
+  margin-right: 30px;
+  margin-top: 20px;
+  font-size: 22px;
+  font-family: "Open Sans", sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  padding: 5px;
+  padding-bottom: 7px;
+  border: 1.5px rgba(255, 255, 255, 0.541) solid;
+}
+
+a.login:hover {
+  background-color: rgba(255, 255, 255, 0.541);
+  color: #141325cc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s
+}
